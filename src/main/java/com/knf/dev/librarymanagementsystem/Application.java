@@ -39,8 +39,8 @@ public class Application {
             User admin = new User(
                     "Admin",
                     "Admin",
-                    "admin@admin.com",
-                    passwordEncoder.encode("admin123"),
+                    "admin@admin1.com",
+                    passwordEncoder.encode("admin1234"),
                     roles
             );
 
