@@ -39,11 +39,10 @@ public class Application {
             User admin = new User(
                     "Admin",
                     "Admin",
-                    "admin@admin1.com",
+                    "admin@admin.com",
                     passwordEncoder.encode("admin1234"),
                     roles
             );
-
             userRepository.save(admin);
         };
     }
